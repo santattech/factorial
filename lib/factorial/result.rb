@@ -1,8 +1,9 @@
 module Factorial
 
   class Result < Array
-    def initialize(number)
-      self << fact(number.to_i)
+    def initialize(*number_array)
+      num_arr =  *number_array
+      num_arr.each{|i| self << fact(i)}
     end
 
     protected

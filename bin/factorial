@@ -3,6 +3,6 @@
 require 'factorial'
 
 
-factorial = Factorial::Base.new(ARGV[0])
+factorial = Factorial::Base.new(5,6,7)
  
 puts factorial.factorial_result

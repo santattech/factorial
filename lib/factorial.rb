@@ -4,8 +4,8 @@ module Factorial
   class Base
     attr_reader :factorial_result
 
-    def initialize(number)
-      @factorial_result = Factorial::Result.new(number)
+    def initialize(*args)
+      @factorial_result = Factorial::Result.new(*args)
     end
   end
 end
