@@ -24,6 +24,6 @@ Usage
 
 ### For determining the factorial of a number
 
-  fact = Factorial::Base.new(your_number)
+  fact = Factorial::Base.new(numbers) e.g 2, 5
 
-  fact.factorial_result
+  fact.factorial_result => 2, 120
