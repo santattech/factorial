@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'factorial'
+
+
+factorial = Factorial::Base.new(ARGV[0])
+ 
+puts factorial.factorial_result
