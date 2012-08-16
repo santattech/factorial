@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'factorial'
+
+g = Factorial::Base.new(20, 5, 15)
+ 
+puts g.gcf_result
