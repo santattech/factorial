@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'factorial'
+
+l = Factorial::Base.new(2, 4, 6, 5, 10)
+
+puts l.lcm_result

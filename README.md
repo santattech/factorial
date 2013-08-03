@@ -3,7 +3,7 @@ Factorial
 
 Description
 ------------
-Factorial helps you to calculate the factorial of a number ora list of numbers. e.g factorial of 5 = 120. It has also the features to find the greatest commpn factor (GCF) of the series of numbers.
+Factorial helps you to calculate the factorial of a number or a list of numbers. e.g factorial of 5 = 120. It has also the features to find the greatest common factor (GCF) of the series of numbers and the least common factor (LCM).
 
 Requirements
 ------------
@@ -24,10 +24,13 @@ Usage
 
 ### For determining the factorial of a number
 
-  fact = Factorial::Base.new(numbers) e.g 2, 5
+  result = Factorial::Base.new(numbers) e.g 2, 5
 
-  fact.factorial_result => 2, 120
+  result.factorial_result => 2, 120
 
 ### For determining the GCF
 
-   fact.gcf_result => 1
+   result.gcf_result => 1
+
+### For determining the LCM
+    result.lcm_result => 10
