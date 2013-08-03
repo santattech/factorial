@@ -23,11 +23,11 @@ Usage
    require 'factorial'
 
 ### For determining the factorial of a number
-  result = Factorial::Base.new(numbers) e.g 2, 5
-  result.factorial_result => 2, 120
+    result = Factorial::Base.new(numbers) e.g 2, 5
+    result.factorial_result => 2, 120
 
 ### For determining the GCF
-   result.gcf_result => 1
+    result.gcf_result => 1
 
 ### For determining the LCM
     result.lcm_result => 10
